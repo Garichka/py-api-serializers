@@ -3,7 +3,8 @@ from cinema.models import Genre, Actor, CinemaHall, Movie, MovieSession
 from cinema.serializers import (
     GenreSerializer, ActorSerializer, CinemaHallSerializer,
     MovieSerializer, MovieListSerializer, MovieDetailSerializer,
-    MovieSessionSerializer, MovieSessionListSerializer, MovieSessionDetailSerializer
+    MovieSessionSerializer, MovieSessionListSerializer,
+    MovieSessionDetailSerializer
 )
 
 
